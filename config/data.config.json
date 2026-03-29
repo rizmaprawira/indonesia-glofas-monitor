@@ -1,0 +1,33 @@
+{
+  "dataset": "cems-glofas-forecast",
+  "variable": "river_discharge_in_the_last_24_hours",
+  "productType": ["control_forecast", "ensemble_perturbed_forecasts"],
+  "indonesia": {
+    "boundingBox": {
+      "north": 8,
+      "west": 94,
+      "south": -12,
+      "east": 142
+    },
+    "countryCode": "IDN"
+  },
+  "leadTimeHours": [24, 48, 72, 96, 120, 144, 168, 192, 216, 240, 264, 288, 312, 336, 360, 384, 408, 432, 456, 480, 504, 528, 552, 576, 600, 624, 648, 672, 696, 720],
+  "monitoringPoints": {
+    "maxPoints": 1000,
+    "minDischargeThreshold": 10,
+    "gridSpacingDegrees": 0.1,
+    "prioritizeHighDischarge": true
+  },
+  "output": {
+    "dataDir": "public/data/latest",
+    "metadataFile": "metadata.json",
+    "pointsIndexFile": "points-index.json",
+    "topPointsFile": "top-points.json",
+    "timeseriesDir": "timeseries"
+  },
+  "api": {
+    "maxRetries": 3,
+    "retryDelaySeconds": 30,
+    "lookbackDays": 7
+  }
+}

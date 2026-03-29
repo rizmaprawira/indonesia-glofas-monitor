@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Build outputs
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Python
+*.egg-info/
+.eggs/
+pip-log.txt
+
+# Downloaded data (large files)
+scripts/temp/
+scripts/*.grib2
+scripts/*.nc
+scripts/*.grib
+
+# Keep data in git for static hosting
+# !public/data/

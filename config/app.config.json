@@ -1,0 +1,21 @@
+{
+  "appName": "Indonesia GloFAS Monitor",
+  "description": "Real-time river discharge forecast monitoring for Indonesia",
+  "version": "1.0.0",
+  "mapDefaults": {
+    "center": [-2.5, 118],
+    "zoom": 5,
+    "minZoom": 4,
+    "maxZoom": 12
+  },
+  "leadTimes": [24, 48, 72, 96, 120, 144, 168, 192, 216, 240, 264, 288, 312, 336, 360, 384, 408, 432, 456, 480, 504, 528, 552, 576, 600, 624, 648, 672, 696, 720],
+  "defaultLeadTime": 24,
+  "defaultMetric": "p50",
+  "metrics": ["control", "min", "max", "mean", "p10", "p25", "p50", "p75", "p90"],
+  "topPointsCount": 20,
+  "colorScale": {
+    "thresholds": [0, 50, 100, 250, 500, 1000, 2500, 5000, 10000],
+    "colors": ["#2166ac", "#67a9cf", "#d1e5f0", "#f7f7f7", "#fddbc7", "#f4a582", "#d6604d", "#b2182b", "#67001f"]
+  },
+  "refreshIntervalMs": 300000
+}
