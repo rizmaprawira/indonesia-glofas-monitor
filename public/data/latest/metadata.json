@@ -1,6 +1,6 @@
 {
-  "forecastRunDate": "2026-04-01",
-  "pipelineTimestamp": "2026-04-02T08:00:42.734547",
+  "forecastRunDate": "2026-04-02",
+  "pipelineTimestamp": "2026-04-03T07:52:53.847182",
   "dataVersion": "1.0",
   "leadTimes": [
     24,
